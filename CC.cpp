@@ -38,6 +38,6 @@ int main()
 		double pp=(cc[1]+cc[2]*2)/n/n;
 		ans=pp*(m-1);
 	}
-	cout<<ans<<endl;
+	cout<<fixed<<setprecision(12)<<ans<<endl;
 	return 0;
 }
